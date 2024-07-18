@@ -19,3 +19,7 @@ async function fetchUserData() {
     dataContainer.textContent = "Failed to load user data";
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetchUserData();
+});
